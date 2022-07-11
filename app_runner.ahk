@@ -1,4 +1,5 @@
 #NoEnv
+#SingleInstance Force
 
 SendMode Input
 DetectHiddenWindows, on
