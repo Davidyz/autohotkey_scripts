@@ -17,7 +17,7 @@ SetWinDelay, 0
             WinActivate, ahk_id %ff%
     }
     else
-        Run, firefox.exe ,,Hide
+        Run, firefox.exe ,,Max
 return
 
 #Enter::
@@ -31,5 +31,5 @@ return
             WinActivate, ahk_id %terminal%
     }
     else
-        Run, wt.exe ,,Hide
+        Run, wt.exe ,,Max
 return
