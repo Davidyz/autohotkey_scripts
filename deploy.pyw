@@ -14,4 +14,4 @@ if __name__ == '__main__':
     cwd = get_dir()
     os.chdir(cwd)
     for i in get_scripts(cwd):
-        subprocess.run(f'cmd /k "{i}"')
+        subprocess.call(f'cmd /k "{i}"', shell=True)
